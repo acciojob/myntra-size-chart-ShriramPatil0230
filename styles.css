@@ -1,2 +1,25 @@
 
 /* Your CSS Code here. */
+table,td,th{
+	border:1px solid black;
+	border-collapse: collapse;
+	text-align:right;
+	width:90vw
+}
+.head-part{
+	background:lightcoral;
+	color:white;
+}
+.row-1{
+background:lightsalmon;
+}
+.row-2{
+	background:lightyellow;
+}
+.row-3{
+	background:lightcyan;
+}
+table tr td:first-child,
+table tr th{
+	text-align:left;
+}
